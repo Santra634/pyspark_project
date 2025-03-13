@@ -22,6 +22,17 @@ try:
 except Exception as e:
     log.log_error(e)
 
+from analytics.file2 import evening_riders
+try:
+    result = evening_riders(food_del)
+    result.show()
+    result.write.csv('result/analytics2', header=True, mode='overwrite')
+    log.log_info('analytics2 file is executed and output is generated')
+except Exception as e:
+    log.log_error(e)
+
+
+
 
 
 

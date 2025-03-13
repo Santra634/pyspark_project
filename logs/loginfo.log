@@ -17,3 +17,41 @@ INFO:py4j.clientserver:Closing down clientserver connection
 2025-03-12 12:50:17,197,INFO,dataframe created successfully
 2025-03-12 12:50:21,104,INFO,analytics1 file is executed and output is generated
 2025-03-12 12:50:21,104,INFO,Closing down clientserver connection
+2025-03-13 12:45:50,970,INFO,dataframe created successfully
+2025-03-13 12:45:51,208,ERROR,error:[UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `hrs` cannot be resolved. Did you mean one of the following? [`hours`, `order_id`, `rider_id`, `cancelled`, `order_date`].;
+'Project [accept_time#21, 'hrs]
++- Project [order_time#17, order_id#18, order_date#19, allot_time#20, accept_time#21, pickup_time#22, delivered_time#23, rider_id#24, first_mile_distance#25, last_mile_distance#26, alloted_orders#27, delivered_orders#28, cancelled#29, undelivered_orders#30, lifetime_order_count#31, reassignment_method#32, reassignment_reason#33, reassigned_order#34, session_time#35, cancelled_time#36, hour(accept_time#21, Some(Asia/Kolkata)) AS hours#215]
+   +- Relation [order_time#17,order_id#18,order_date#19,allot_time#20,accept_time#21,pickup_time#22,delivered_time#23,rider_id#24,first_mile_distance#25,last_mile_distance#26,alloted_orders#27,delivered_orders#28,cancelled#29,undelivered_orders#30,lifetime_order_count#31,reassignment_method#32,reassignment_reason#33,reassigned_order#34,session_time#35,cancelled_time#36] csv
+
+2025-03-13 12:45:51,209,INFO,Closing down clientserver connection
+2025-03-13 12:54:28,467,INFO,dataframe created successfully
+2025-03-13 12:54:32,193,INFO,analytics1 file is executed and output is generated
+2025-03-13 12:54:32,284,INFO,Closing down clientserver connection
+2025-03-13 12:57:06,009,INFO,dataframe created successfully
+2025-03-13 12:57:09,863,INFO,analytics1 file is executed and output is generated
+2025-03-13 12:57:10,121,INFO,Closing down clientserver connection
+2025-03-13 12:59:02,418,INFO,dataframe created successfully
+2025-03-13 12:59:06,515,INFO,analytics1 file is executed and output is generated
+2025-03-13 12:59:06,784,INFO,Closing down clientserver connection
+2025-03-13 13:00:45,148,INFO,dataframe created successfully
+2025-03-13 13:00:49,121,INFO,analytics1 file is executed and output is generated
+2025-03-13 13:00:49,291,INFO,Closing down clientserver connection
+2025-03-13 13:01:33,902,INFO,dataframe created successfully
+2025-03-13 13:01:37,652,INFO,analytics1 file is executed and output is generated
+2025-03-13 13:01:37,830,INFO,Closing down clientserver connection
+2025-03-13 13:11:07,421,INFO,dataframe created successfully
+2025-03-13 13:11:11,031,INFO,analytics1 file is executed and output is generated
+2025-03-13 13:11:12,115,INFO,Closing down clientserver connection
+2025-03-13 13:11:51,970,INFO,dataframe created successfully
+2025-03-13 13:11:55,955,INFO,analytics1 file is executed and output is generated
+2025-03-13 13:11:57,228,INFO,Closing down clientserver connection
+2025-03-13 13:12:54,635,INFO,dataframe created successfully
+2025-03-13 13:12:58,446,INFO,analytics1 file is executed and output is generated
+2025-03-13 13:12:59,723,INFO,Closing down clientserver connection
+2025-03-13 13:13:36,476,INFO,dataframe created successfully
+2025-03-13 13:13:40,516,INFO,analytics1 file is executed and output is generated
+2025-03-13 13:13:41,853,INFO,Closing down clientserver connection
+2025-03-13 13:16:27,651,INFO,dataframe created successfully
+2025-03-13 13:16:31,681,INFO,analytics1 file is executed and output is generated
+2025-03-13 13:16:33,944,INFO,analytics2 file is executed and output is generated
+2025-03-13 13:16:33,944,INFO,Closing down clientserver connection

@@ -14,6 +14,6 @@ def peak_hrs(tablename):
     out = out.withColumn('formatted_hr', concat_ws(':', col('hours'), lit('00')))
     # out.show()
     df_12hr = out.withColumn('time_in_12hr', date_format(col('formatted_hr'), 'hh:mm a'))
-    return df_12hr
+    # return df_12hr
 
-
+    df=tablename.withColumn
